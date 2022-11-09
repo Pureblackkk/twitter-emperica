@@ -1,0 +1,9 @@
+name = "playground"
+
+[tajriba.auth]
+srtoken = "dRjoGURMSdiaCUtY"
+
+[[tajriba.auth.users]]
+name = "Admin"
+username = "admin"
+password = "JjoawhwX"

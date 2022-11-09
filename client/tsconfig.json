@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "jsx": "preserve",
+        "module": "esnext",
+        "esModuleInterop": true,
+        "moduleResolution": "node",
+        "baseUrl": ".",
+        "paths": {
+            "$/src/*": ["./src/*"],
+            "$/components/*": ["./src/components/*"],
+            "$/chatroom/*": ["./src/chat-room/*"],
+            "$/twitteroom/*": ["./src/twitter-room/*"],
+            "$/assets/*": ["./src/assets/*"],
+            "$/utils/*": ["./src/utils/*"],
+            "$/introexit/*": ["./src/intro-exit/*"],
+        },
+    },
+    "include": ["./src/**/*.ts", "./src/**/*.tsx", "./src/**/*.css", "src/twitter-room/assets/index.d.ts"],
+    "exclude": ["node_modules"]
+}
